@@ -76,7 +76,7 @@ venv.bak/
 # Project-Specific Files
 # ===================================================================
 # Sensitive code
-src/pricing/
+src/private/
 
 # Ignore the private model directory and logs
 logs/
