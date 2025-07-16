@@ -9,13 +9,13 @@ import csv
 # ==============================================================================
 # SCRIPT CONFIGURATION (Specs V0.1)
 # ==============================================================================
-START_DATE = "2025-01-01" # "YYYY-MM-DD"
-END_DATE = "2025-07-15" # "YYYY-MM-DD" (non-inclusive)
+START_DATE = "2025-07-10" # "YYYY-MM-DD"
+END_DATE = "2025-07-17" # "YYYY-MM-DD" (non-inclusive)
 INSTRUMENT_NAME = "BTC-PERPETUAL"
 DATA_TYPE = "funding_rate_history"
 OUTPUT_DIRECTORY = "./data/raw"
 
-CHUNK_SIZE_DAYS = 30 # Limit is 30 days for funding rate history
+CHUNK_SIZE_DAYS = 1 # Limit is 30 days for funding rate history
 SLEEP_INTERVAL_SECONDS = 0.5
 # ==============================================================================
 
