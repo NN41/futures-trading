@@ -82,3 +82,5 @@ src/private/
 logs/
 data/
 notebooks/
+scratch/
+todo.txt
