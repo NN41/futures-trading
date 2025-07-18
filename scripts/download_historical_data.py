@@ -6,16 +6,19 @@ import time
 import os
 import csv
 
+cwd = os.getcwd()
+print(cwd)
+
 # ==============================================================================
 # SCRIPT CONFIGURATION (Specs V0.1)
 # ==============================================================================
-START_DATE = "2025-07-10" # "YYYY-MM-DD"
-END_DATE = "2025-07-17" # "YYYY-MM-DD" (non-inclusive)
-INSTRUMENT_NAME = "BTC-PERPETUAL"
+START_DATE = "2020-07-16" # "YYYY-MM-DD"
+END_DATE = "2025-07-16" # "YYYY-MM-DD" (non-inclusive)
+INSTRUMENT_NAME = "ETH-PERPETUAL"
 DATA_TYPE = "funding_rate_history"
 OUTPUT_DIRECTORY = "./data/raw"
 
-CHUNK_SIZE_DAYS = 1 # Limit is 30 days for funding rate history
+CHUNK_SIZE_DAYS = 30 # Limit is 30 days for funding rate history
 SLEEP_INTERVAL_SECONDS = 0.5
 # ==============================================================================
 
